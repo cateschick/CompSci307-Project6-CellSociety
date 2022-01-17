@@ -1,0 +1,96 @@
+.root {
+  -fx-background: background_color;
+  -fx-padding: 10, 20, 10, 20;
+  -fx-text-fill: text_color;
+  -fx-font-weight: 100;
+  -fx-alignment: baseline-center;
+  -fx-spacing: 10%;
+}
+
+.toolbar {
+  -fx-background-color: transparent;
+  -fx-background-size: auto;
+}
+
+#leftToolbar {
+  -fx-alignment: baseline-left;
+}
+
+#rightToolbar {
+  -fx-alignment: baseline-right;
+  -fx-fill: transparent;
+  align-content: flex-end;
+}
+
+.vbox {
+  -fx-spacing: 25px;
+  -fx-max-width: 1000px;
+  -fx-max-height: 200px;
+  -fx-padding: 15, 12, 15, 12;
+  -fx-background-color: primary_color;
+  -fx-alignment: center;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-text-fill: inherit;
+}
+
+.hbox {
+  -fx-spacing: 25px;
+  -fx-padding: 15, 12, 15, 12;
+  -fx-background-color: primary_color;
+  -fx-alignment: center;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-text-fill: inherit;
+}
+
+.label {
+  -fx-font-family: "Segoe UI Light", "sans-serif";
+  -fx-text-fill: text_color;
+  -fx-font-size: 16;
+}
+
+.body-text {
+  -fx-font-family: "Segoe UI Light", "sans-serif";
+  -fx-text-fill: text_color;
+  -fx-font-size: 16;
+}
+
+.dragTarget {
+  -fx-padding: 0, 10, 0, 10;
+  -fx-column-halignment: center;
+  -fx-row-valignment: center;
+  -fx-alignment: center;
+  -fx-text-fill: inherit;
+}
+
+.button-box {
+  -fx-alignment: center;
+  -fx-padding: 40px;
+  -fx-spacing: 60px;
+  -fx-text-fill: inherit;
+  -fx-position: fixed;
+  -fx-position-shape: true;
+}
+
+.button {
+  -fx-text-fill: inherit;
+  -fx-background-color: accent_color;
+  -fx-padding: 10px;
+  -fx-spacing: 60px;
+  -fx-alignment: center;
+  -fx-row-valignment: center;
+  -fx-column-halignment: center;
+}
+
+.color-tooltip {
+  -fx-padding: 20px;
+  -fx-spacing: 10px;
+  -fx-alignment: center;
+  -fx-row-valignment: center;
+  -fx-column-halignment: center;
+}
+
+.button:hover {
+  -fx-border-color: text_color;
+}

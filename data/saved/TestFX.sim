@@ -1,0 +1,7 @@
+Title=TestFX
+Author=Kyle White
+Description=This is a TestFX test
+
+Type=GameOfLife
+InitialStates=game_of_life/glider.csv
+StateColors=00FF00,FF00FF

@@ -1,0 +1,6 @@
+Title=test
+Author=Kyle White
+Description=This is a test
+Type=GameOfLife
+InitialStates=game_of_life/glider.csv
+StateColors=00FF00,FF00FF
